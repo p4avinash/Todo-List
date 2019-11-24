@@ -1,0 +1,49 @@
+.body {
+  padding: 30;
+  background: linear-gradient(to right, yellow, rgb(85, 201, 90));
+}
+.totalContainer {
+  text-align: center;
+}
+
+#inputId {
+  width: 300;
+  height: 30;
+  font-size: 20;
+  text-align: center;
+}
+
+#submitId {
+  margin-top: 5;
+  width: 100;
+  height: 28;
+  font-size: 18;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+#dynamicList {
+  font-size: 25;
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 10000px) {
+  #delButtonId {
+    float: right;
+    margin-right: 6000;
+    background-color: red;
+    color: white;
+    border: 0;
+    height: 25;
+    width: 70;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #delButtonId {
+    float: left;
+    margin-right: 6000;
+  }
+}
